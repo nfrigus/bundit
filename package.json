@@ -1,0 +1,37 @@
+{
+  "name": "bundit",
+  "version": "0.0.2",
+  "description": "Browserify wrapper for gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nfrigus/bundit.git"
+  },
+  "keywords": [
+    "gulp",
+    "browserify",
+    "babel"
+  ],
+  "author": "shestakovsemen@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nfrigus/bundit/issues"
+  },
+  "homepage": "https://github.com/nfrigus/bundit#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.1.0",
+    "gulp": "^3.9.1",
+    "gulp-add": "0.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.1",
+    "path": "^0.12.7",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
