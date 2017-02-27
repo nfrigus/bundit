@@ -4,7 +4,7 @@
   "description": "Browserify wrapper for gulp",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -37,19 +37,9 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "devDependencies": {
-    "ava": "^0.18.2"
-  },
-  "ava": {
-    "files": [
-      "test/**/*.js",
-      "!**/*.rc.js"
-    ],
-    "failFast": true,
-    "tap": true,
-    "powerAssert": false,
-    "require": [
-      "babel-register"
-    ],
-    "babel": "inherit"
+    "chai": "^3.5.0",
+    "chai-fs": "^1.0.0",
+    "fs-promise": "^2.0.0",
+    "mocha": "^3.2.0"
   }
 }
